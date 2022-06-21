@@ -8,7 +8,6 @@ function checaLogin(){
                   case 'william'&&'123':
                   case 'Samuel'&&'123':
                   case 'edgar'&&'123':
-                  case 'larissa'&&'123':
                         window.location.href="go:categorias";
                     break;
                   case 'larissa'&&'123':
