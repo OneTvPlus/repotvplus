@@ -1,18 +1,16 @@
 function checaLogin(){
-            var nomeLogin = document.getElementById("login").value;
-            var senhaLogin = document.getElementById("senhaL").value;
-                switch (nomeLogin & senhaLogin) {
+            //var nomeLogin = document.getElementById("login").value;
+            senhaLogin = document.getElementById("senhaL").value;
+                switch (senhaLogin) {
 /* Clientes Pagos*/
-                  case 'Admin'&'123':
-                  case 'dilene'&&'123':
-                  case 'william'&&'123':
-                  case 'Samuel'&&'123':
-                  case 'edgar'&&'123':
-                        window.location.href="go:categorias";
+                  case 'Dilene7875':
+                  case 'Admin6648':
+                  case 'William2009':
+                         window.location.href="go:categorias";
                     break;
  /* Clientes Grátis*/
-                  case 'edgar'&'456':
-                        window.location.href="go:categorias";
+                  case 'Gratis':
+                        window.location.href="go:gratis";
                     break;
                   default:
                     alert('Desculpe, mas o Nome:' +nomeLogin+' E senha: '+senhaLogin+'. São inválidos.');
