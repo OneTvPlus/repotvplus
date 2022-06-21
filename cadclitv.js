@@ -11,6 +11,9 @@ function checaLogin(){
                   case 'larissa'&&'123':
                         window.location.href="go:categorias";
                     break;
+                  case 'larissa'&&'123':
+                        window.location.href="go:gratis";
+                    break;
                   default:
                     alert('Desculpe, mas o Nome:' +nomeLogin+' E senha: '+senhaLogin+'. São inválidos.');
                 }
