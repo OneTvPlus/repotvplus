@@ -13,7 +13,7 @@ function checaLogin(){
                         window.location.href="go:gratis";
                     break;
                   default:
-                    alert('Desculpe, mas A senha: '+senhaLogin+' está INCORRETA.');
+                    alert('Desculpe, mas o Nome:' +senhaLogin+'inválidos.');
                   break;
                 }
         }           
