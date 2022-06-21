@@ -1,9 +1,9 @@
 function checaLogin(){
             var nomeLogin = document.getElementById("login").value;
             var senhaLogin = document.getElementById("senhaL").value;
-                switch (nomeLogin && senhaLogin) {
+                switch (nomeLogin & senhaLogin) {
 /* Clientes Pagos*/
-                  case 'Admin'&&'123':
+                  case 'Admin'&'123':
                   case 'dilene'&&'123':
                   case 'william'&&'123':
                   case 'Samuel'&&'123':
@@ -11,7 +11,7 @@ function checaLogin(){
                         window.location.href="go:categorias";
                     break;
  /* Clientes Grátis*/
-                  case 'edgar'&&'123':
+                  case 'edgar'&'456':
                         window.location.href="go:categorias";
                     break;
                   default:
