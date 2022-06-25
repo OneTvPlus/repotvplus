@@ -1,14 +1,31 @@
-function checaLogin(){
+function checaLogin() {
+                        /* ========CLIENTES VIPS PAGOS =================*/
+  		var nomesPago = ['william','dilene'];
+                        /* ========CLIENTES GRÁTIS =================*/
+  		var nomesGratis = ['macelo'];
+  		var item = document.getElementById('senhaL').value;
+  		
+  		if (nomesPago.indexOf(item) > -1) {
+    		            window.location.href="go:categorias";
+  		} else if (nomesGratis.indexOf(item) > -1) {
+  		            window.location.href="go:gratis";
+  		} else {
+  			alert("Chave de Acesso Inválida");
+  	}
+    
+}
+
+/*function checaLogin(){
             //var nomeLogin = document.getElementById("login").value;
             senhaLogin = document.getElementById("senhaL").value;
                 switch (senhaLogin) {
-/* Clientes Pagos*/
+/* Clientes Pagos
                   case 'Dilene7875':
                   case 'Admin6648':
                   case 'William2009':
                          window.location.href="go:categorias";
                     break;
- /* Clientes Grátis*/
+ /* Clientes Grátis
                   case 'Gratis':
                         window.location.href="go:gratis";
                     break;
@@ -17,3 +34,4 @@ function checaLogin(){
                   break;
                 }
         }           
+*/
