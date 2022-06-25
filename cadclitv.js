@@ -1,8 +1,8 @@
 function checaLogin() {
                         /* ========CLIENTES VIPS PAGOS =================*/
-  		var nomesPago = ['william','dilene'];
+  		var nomesPago = ['admin6648','william2009','dilene1979'];
                         /* ========CLIENTES GRÁTIS =================*/
-  		var nomesGratis = ['macelo'];
+  		var nomesGratis = ['Gratis22'];
   		var item = document.getElementById('senhaL').value;
   		
   		if (nomesPago.indexOf(item) > -1) {
