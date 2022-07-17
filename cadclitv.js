@@ -6,7 +6,7 @@ function checaLogin() {
   		var item = document.getElementById('senhaL').value;
   		
   		if (nomesPago.indexOf(item) > -1) {
-    		            window.location.href="go:categorias";
+    		            window.location.href="https://onetvplus.github.io/repotvplus/categoria_vip.html";
   		} else if (nomesGratis.indexOf(item) > -1) {
   		            window.location.href="go:gratis";
   		} else {
